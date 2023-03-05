@@ -1,16 +1,16 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCzuGfcu_m2EUEY9pHxhTA9XXaFm5NMWrs",
-    authDomain: "kwitter-d4f96.firebaseapp.com",
-    databaseURL: "https://kwitter-d4f96-default-rtdb.firebaseio.com",
-    projectId: "kwitter-d4f96",
-    storageBucket: "kwitter-d4f96.appspot.com",
-    messagingSenderId: "913236964863",
-    appId: "1:913236964863:web:6ebc7ca9bbce0f60f463ca"
+    apiKey: "AIzaSyBirPZhLEhzkqM-dJCM0zme4dWyW4dPEW0",
+    authDomain: "kwitter2-1e17a.firebaseapp.com",
+    databaseURL: "https://kwitter2-1e17a-default-rtdb.firebaseio.com",
+    projectId: "kwitter2-1e17a",
+    storageBucket: "kwitter2-1e17a.appspot.com",
+    messagingSenderId: "346031541020",
+    appId: "1:346031541020:web:d51f7e372a71459b0c88d9"
   };
   
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig);
 //ADD YOUR FIREBASE LINKS HERE
 user_name = localStorage.getItem("user_name");
 document.getElementById("user_name").innerHTML = "Welcome "+user_name+"!";
